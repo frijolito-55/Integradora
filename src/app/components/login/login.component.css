@@ -1,0 +1,48 @@
+form{
+  width: 50%;
+  margin: 0 auto;
+}
+
+img {
+  width: 150px; /* Ancho deseado */
+  height: auto; /* La altura se ajusta automáticamente para mantener la proporción original */
+  padding: 10px; /* Espacio alrededor de la imagen */
+  display: block; /* Hace que la imagen sea un elemento en bloque */
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+
+h2{
+  font-size: 30px;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-login{
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+input:focus {
+  border: 2px solid #4498cf;
+  box-shadow: none;
+  
+}
+.login-form {
+  text-align: center;
+}

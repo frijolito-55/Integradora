@@ -1,0 +1,16 @@
+<img src="../../../assets/img/logo.png" alt="Logo">
+<h2>BIENVENIDOS</h2>
+<form [formGroup]="formLogin" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+        <label class="form-label">Correo Electroninco</label>
+        <input type="text" class="form-control" formControlName="email">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Contraseña</label>
+        <input type="password" class="form-control" formControlName="password">
+    </div>
+    <a routerLink="/recuperar-password">¿Olvidaste tu contraseña?</a>
+
+    <input type="submit" value="Iniciar Sesion" class="btn-login">
+    <p class="mt-3">¿Ya te registraste? <a routerLink="/register">Registarse</a></p>
+</form>

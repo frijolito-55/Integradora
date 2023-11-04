@@ -1,0 +1,14 @@
+<img src="../../../assets/img/logo.png" alt="Logo">
+<h2>REGISTRATE</h2>
+<form [formGroup]="formReg" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+        <label class="form-label">Correo Electronico</label>
+        <input type="text" class="form-control" formControlName="email">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Contraseña</label>
+        <input type="password" class="form-control" formControlName="password">
+    </div>
+    <input type="submit" value="Registrar" class="btn-login">
+    <p class="mt-3">¿Ya tienes cuenta? <a routerLink="/login">Iniciar sesion</a></p>
+</form>
